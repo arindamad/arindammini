@@ -21,7 +21,7 @@ function logCalc() {
 function login(){
   var username = document.getElementById("username").value;
   var password =document.getElementById("password").value;  
-  if(username=="arindam" && password=="123456"){      
+  if((username=="arindam" && password=="123456") || (username=="moumita" && password=="moumita1994")){      
     document.getElementById("errorTxt").innerHTML = "";
     logCalc();    
   }
