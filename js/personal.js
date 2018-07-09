@@ -1,4 +1,6 @@
-
+//userlist
+usernmelist=["arindam", "moumita"];
+passwordlist=["123456", "moumita1994"];
 
 
 //login function
@@ -27,7 +29,7 @@ function logCalc() {
 function login(){
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;  
-  if(username=="arindam" && password=="123456"){      
+  if((username=="arindam" && password=="123456")||(username=="moumita" && password=="moumita1994")){      
     document.getElementById("errorTxt").innerHTML = "";
     logCalc();    
   }
@@ -53,7 +55,7 @@ function welcomeFun() {
     }else{
       greet ="good night"
     }
-    ans = "Hello ! " + greet + "I am arindam mini 1.1 update.";
+    ans = "Hello ! " + greet+ "  " + "I am arindam mini 1.1 updated.";
  }
 
 //Printing in a div input value
