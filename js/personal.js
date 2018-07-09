@@ -53,7 +53,7 @@ function welcomeFun() {
     }else{
       greet ="good night"
     }
-    ans = "Hello ! " + greet;
+    ans = "Hello ! " + greet + "I am arindam mini 1.1 update.";
  }
 
 //Printing in a div input value
